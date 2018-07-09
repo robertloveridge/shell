@@ -1,0 +1,3 @@
+# Rob Loveridge
+export PS1="\[\e[33m\]\A\[\e[m\] \[\e[36m\][\[\e[m\]\w\[\e[36m\]]\[\e[m\]: "
+alias ll="ls -larth"
