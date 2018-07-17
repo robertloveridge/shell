@@ -1,2 +1,2 @@
 # shell
-Some handy shell scripts and my bash profile(s).
+Some config files for shell.
