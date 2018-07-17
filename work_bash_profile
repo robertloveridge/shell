@@ -6,6 +6,7 @@ EDITOR=nano;	export EDITOR
 # linux-esque ls-colours
 export LSCOLORS="exCxacaeCxahagaFaGExEx";
 alias lr='ls -R | grep ":$" | sed -e '\''s/:$//'\'' -e '\''s/[^-][^\/]*\//--/g'\'' -e '\''s/^/   /'\'' -e '\''s/-/|/'\'' | less'
+alias cleanupDS="find . -type f -name '*.DS_Store' -ls -delete"
 alias ssh='ssh -A'
 alias ll='ls -lhG'
 alias la='ls -lhGA'
