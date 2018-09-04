@@ -1,0 +1,5 @@
+\set PROMPT1 '%[%n@%033[32;1m%]%x%[%033[0m%]%[%033[31;1m%]%/%[%033[0m%]%R%# '
+\set PROMPT2 '%[['more'] %n@%033[32;1m%]%x%[%033[0m%]%[%033[31;1m%]%/%[%033[0m%]%R%# '
+\pset null '[null]'
+\set COMP_KEYWORD_CASE upper
+\timing
